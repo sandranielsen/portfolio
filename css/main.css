@@ -35,24 +35,25 @@
 
     .nav_link {
         text-decoration: none;
-        font-family: 'Forma DJR Text';
+        font-family: 'Forma DJR Text', sans-serif;
+        font-weight: 400;
         font-size: 12px;
         color: black;
-        z-index: 5;
         position: relative;
+        z-index: 1000;
     }
 
     .nav_link::after {
         content: ' ';
         position: absolute;
-        top: 50%;
+        top: -65%;
         transform: translateY(50%);
         width: 0;
         left: 0;
-        height: 12px;
-        background: currentColor;
+        height: 16px;
+        background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         transition: width 0.25s ease-in-out;
-        color: #5DC6E0;
+        z-index: -1;
     }
 
     .nav_link:hover::after {
@@ -61,7 +62,7 @@
 
     .selectednav_link {
         text-decoration: none;
-        font-family: 'Forma DJR Text';
+        font-family: 'Forma DJR Text', sans-serif;
         font-size: 12px;
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);

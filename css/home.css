@@ -33,9 +33,9 @@
     }
 
     .intro_text {
-        font-family: 'Forma DJR Text';
+        font-family: 'Forma DJR Text', sans-serif;
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 500;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         float: right;
         margin: 1vh 0;
@@ -43,9 +43,9 @@
     }
 
     .intro_text1 {
-        font-family: 'Forma DJR Text';
+        font-family: 'Forma DJR Text', sans-serif;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 200;
     }
 
     .name {
@@ -57,11 +57,15 @@
         border: 2px solid black;
         padding: 8px;
         width: 16vw;
-        font-family: 'Forma DJR Text';
+        font-family: 'Forma DJR Text', sans-serif;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 200;
         background-color: transparent;
         margin: 3vh 0;
+    }
+
+    .intro_button:hover {
+        color: #5DC6E0;
     }
 
 }

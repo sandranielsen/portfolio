@@ -25,7 +25,7 @@
 
     .page_headline {
         font-size: 32px;
-        font-family: 'Forma DJR Text';
+        font-family: 'Forma DJR Text', sans-serif;
         font-weight: 500;
         margin: 3vh 0;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
@@ -61,5 +61,7 @@
     .content_text {
         display: none;
     }
+
+
 
 }
