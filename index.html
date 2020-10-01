@@ -11,31 +11,101 @@
 </head>
 
 <body>
-    <header class="navigation_container">
+
+    <header class="navigation_container" id="nav">
         <a href="#"><img src="media/logo.png" alt="logo" class="logo"></a>
         <nav class="nav_elements">
-            <a href="subpages/portfolio.html" class="nav_link">PORTFOLIO</a>
-            <a href="subpages/about.html" class="nav_link">ABOUT</a>
-            <a href="subpages/contact.html" class="nav_link">CONTACT</a>
+            <a href="#portfolio" class="nav_link">PORTFOLIO</a>
+            <a href="#about" class="nav_link">ABOUT</a>
+            <a href="#contact" class="nav_link">CONTACT</a>
         </nav>
         <div class="mobile_menu">
 
         </div>
     </header>
-    <main class="main_container">
-        <img src="media/header.jpg" alt="me" class="header_img">
-        <div class="intro_container">
-            <div class="text_underline">
-                <h2 class="intro_text">HELLO, MY NAME IS</h2>
+    <main>
+        <!-- Banner section -->
+        <section="main_container">
+            <img src="media/header.jpg" alt="me" class="header_img">
+            <div class="intro_container">
+                <div class="underline_text">
+                    <h2 class="intro_text">HELLO, MY NAME IS</h2>
+                </div>
+                <img src="media/name.png" alt="name" class="name">
+                <h3 class="intro_text1">introduction text - work in progress</h3>
+                <button onclick="window.location.href='#about'" class="intro_button">Button
+                    text</button>
             </div>
-            <img src="media/name.png" alt="name" class="name">
-            <h3 class="intro_text1">introduction text - work in progress</h3>
-            <button onclick="window.location.href='subpages/portfolio.html'" class="intro_button">Button text</button>
-        </div>
+            </section>
+            <!-- Portfolio section -->
+            <section class="portfolio_container" id="portfolio">
+                <div class="text_underline">
+                    <h1 class="page_headline">PORTFOLIO</h1>
+                </div>
+                <div class="portfolio_content">
+                    <div class="content">
+                        <a href="subpages/kreaplace.html"><img src="media/kreaplace-main.jpg" class="content_img"
+                                alt="KreaPlace"></a>
+                        <div class="overlay">
+                            <h2 class="subheadline">KreaPlace</h2>
+                            <h4 class="body">information text - work in progress</h4>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="media/safetogo-main.jpg" class="content_img" alt="SafeToGo">
+                        <div class="overlay">
+                            <h2 class="subheadline">SafeToGo</h2>
+                            <h3 class="body">information text - work in progress</h4>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="media/toblerone-main.gif" class="content_img" alt="Toblerone">
+                        <div class="overlay">
+                            <h2 class="subheadline">Toblerone</h2>
+                            <h4 class="body">information text - work in progress</h4>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="media/toblerone-main.gif" class="content_img" alt="Toblerone">
+                        <div class="overlay">
+                            <h2 class="subheadline">Toblerone</h2>
+                            <h4 class="body">information text - work in progress</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About section -->
+            <section class="about_container" id="about">
+                <div class="text_container">
+                    <h1 class="page_headline">ABOUT</h1>
+                    <p class="about_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tem por invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><br>
+                    <p class="about_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tem por invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><br>
+                    <p class="about_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tem por invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <div class="some_container">
+                        <a href="https://www.linkedin.com/in/sandramago/"><img src="media/linkedin.png" alt="LinkedIn"
+                                class="some_icon"></a>
+                        <a href="https://github.com/sandranielsen"><img src="media/github.png" alt="GitHub"
+                                class="some_icon"></a>
+                        <a href="https://www.instagram.com/sandra.nielsen/"><img src="media/insta.png" alt="Instagram"
+                                class="some_icon"></a>
+                    </div>
+                </div>
+                <img src="media/about.jpg" alt="me" class="about_img">
+            </section>
+            <section class="contact_container" id="contact">
+                <h1 class="page_headline">LET'S TALK</h1>
+                <p class="contact_text">Send me an email or give me a call!</p><br>
+                <p class="contact_info">Email: <a class="contact_link"
+                        href="mailto: sandramarienielsen@gmail.com">sandramarienielsen@gmail.com</a></p>
+                <p class="contact_info">Phone: <a class="contact_link" href=" tel:+45 22 94 77 00">+45 22 94 77 00</a>
+                </p>
+                <button onclick="window.location.href='(add cv)'" class="contact_button">DOWNLOAD CV</button>
+            </section>
     </main>
-
-    <script src="js/main.js">
-    </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -17,7 +17,9 @@
     .navigation_container {
         height: 16vh;
         width: 100%;
-        position: absolute;
+        position: fixed;
+        z-index: 5;
+        transition: 0.5s;
     }
 
     .logo {
@@ -68,4 +70,5 @@
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;
     }
+
 }
