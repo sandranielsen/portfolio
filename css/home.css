@@ -57,8 +57,8 @@
 
     .intro_button {
         border: 2px solid black;
-        padding: 8px;
-        width: 16vw;
+        padding: 12px;
+        width: 20vw;
         font-family: 'Forma DJR Text', sans-serif;
         font-size: 16px;
         font-weight: 200;
@@ -80,8 +80,8 @@
     }
 
     .page_headline {
-        font-size: 32px;
-        font-family: 'Forma DJR Text', sans-serif;
+        font-size: 48px;
+        font-family: 'Soulcraft', sans-serif;
         font-weight: 500;
         margin: 0 0 3vh;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
@@ -119,12 +119,17 @@
         bottom: 0;
         left: 0;
         right: 0;
-        height: 100%;
         width: 100%;
+        height: auto;
         transition: 0.5s;
         background-color: #5DC6E0;
         opacity: 0;
-        padding: 0 2vw;
+        margin: 3vh 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        cursor: pointer;
     }
 
     .content:hover .overlay {
@@ -133,14 +138,16 @@
 
     .subheadline {
         color: white;
-        font-size: 20px;
-        text-align: center;
+        font-size: 24px;
+        font-family: 'Forma DJR Text', sans-serif;
+        font-weight: 500;
     }
 
     .body {
         color: white;
-        font-size: 20px;
-        text-align: center;
+        font-size: 16px;
+        font-family: 'Forma DJR Text', sans-serif;
+        font-weight: 400;
     }
 }
 
@@ -148,19 +155,23 @@
 .about_container {
     padding: 16vh 5vw 16vh;
     width: 100%;
-    display: flex;
-    flex-direction: row;
 }
 
 .text_container {
     width: 40%;
 }
 
+.about_article {
+    display: flex;
+    flex-direction: row;
+    margin: 3vh 0;
+}
+
 .about_img {
     width: 60%;
     height: 60%;
     float: right;
-    padding: 0 0 0 2vw;
+    padding: 0 0 0 1vw;
     margin: auto 0;
 }
 
@@ -185,8 +196,8 @@
 /* Contact section */
 .contact_container {
     background-color: #5DC6E0;
-    padding: 22vh 5vw;
-    margin: 8vh 0 0;
+    padding: 12vh 5vw;
+    margin: 3vh 0 0;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -216,13 +227,13 @@
 
 .contact_button {
     border: 2px solid black;
-    padding: 8px;
-    width: 16vw;
+    padding: 12px;
+    width: 20vw;
     font-family: 'Forma DJR Text', sans-serif;
     font-size: 16px;
     font-weight: 200;
     background-color: transparent;
-    margin: 3vh 0;
+    margin: 10vh 0 6vh;
     cursor: pointer;
     align-self: center;
 }
@@ -232,4 +243,16 @@
     border: 2px solid white;
     transition: 0.5s;
 }
+
+.top_button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #5DC6E0;
+}
+
+.button_img {
+    width: 3vw;
+}
+
 }

@@ -7,6 +7,8 @@
     font-family: "sans-serif";
 }
 
+@import url("https://use.typekit.net/tqs0sny.css");
+
 /* Tablet */
 @media only screen and (min-width: 600px) {}
 
@@ -44,6 +46,7 @@
         position: relative;
         z-index: 1000;
     }
+
 
     .nav_link::after {
         content: ' ';
