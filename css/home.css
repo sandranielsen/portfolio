@@ -25,9 +25,9 @@
     .intro_container {
         position: absolute;
         z-index: 2;
-        width: 35vw;
+        width: 40vw;
         top: 45%;
-        left: 78%;
+        left: 77%;
         transform: translate(-50%, -50%);
     }
 
@@ -51,7 +51,7 @@
     }
 
     .name {
-        width: 35vw;
+        width: 40vw;
         margin: 1vh 0;
     }
 
@@ -68,8 +68,9 @@
     }
 
     .intro_button:hover {
-        color: #5DC6E0;
-        border: 2px solid #5DC6E0;
+        color: white;
+        border: 2px solid black;
+        background-color: black;
         transition: 0.5s;
     }
 
@@ -125,6 +126,7 @@
         background-color: #5DC6E0;
         opacity: 0;
         margin: 3vh 3vw;
+        padding: 0 5vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -149,110 +151,126 @@
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 400;
     }
-}
 
-/* About section */
-.about_container {
-    padding: 16vh 5vw 16vh;
-    width: 100%;
-}
+    /* About section */
+    .about_container {
+        padding: 16vh 5vw 16vh;
+        width: 100%;
+    }
 
-.text_container {
-    width: 40%;
-}
+    .text_container {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
 
-.about_article {
-    display: flex;
-    flex-direction: row;
-    margin: 3vh 0;
-}
+    .about_article {
+        display: flex;
+        flex-direction: row;
+        margin: 3vh 0 0;
+    }
 
-.about_img {
-    width: 60%;
-    height: 60%;
-    float: right;
-    padding: 0 0 0 1vw;
-    margin: auto 0;
-}
+    .about_img {
+        width: 55vw;
+        height: 45vw;
+        object-fit: cover;
+        float: right;
+    }
 
-.about_text {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 1vh 2vw 0 0
-}
+    .about_text {
+        font-family: 'Forma DJR Text', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0 2vw 3vh 0;
+    }
 
-.some_container {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    margin: 4vh auto 0;
-}
+    .about_button {
+        border: 2px solid black;
+        padding: 12px;
+        width: 25vw;
+        font-family: 'Forma DJR Text', sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        background-color: transparent;
+        margin: 3vh auto;
+        cursor: pointer;
+        justify-self: center;
+    }
 
-.some_icon {
-    width: 70%;
-}
+    .about_button:hover {
+        color: white;
+        border: 2px solid black;
+        background-color: black;
+        transition: 0.5s;
+    }
 
-/* Contact section */
-.contact_container {
-    background-color: #5DC6E0;
-    padding: 12vh 5vw;
-    margin: 3vh 0 0;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+    .img_container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+    }
 
-.contact_text {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-}
+    .some_container {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        margin: 6vh auto 0;
+    }
 
-.contact_info {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 1vh 0;
-}
+    .some_icon {
+        width: 70%;
+    }
 
-.contact_link {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    margin: 1vh 0;
-    color: black;
-    text-decoration: none;
-}
+    /* Contact section */
+    .contact_container {
+        background-color: #5DC6E0;
+        padding: 12vh 5vw;
+        margin: 3vh 0 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0 8px 10px 3px black;
+    }
 
-.contact_button {
-    border: 2px solid black;
-    padding: 12px;
-    width: 20vw;
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    background-color: transparent;
-    margin: 10vh 0 6vh;
-    cursor: pointer;
-    align-self: center;
-}
+    .contact_text {
+        font-family: 'Forma DJR Text', sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        margin: 2vh 0;
+    }
 
-.contact_button:hover {
-    color: white;
-    border: 2px solid white;
-    transition: 0.5s;
-}
+    .contact_info {
+        font-family: 'Forma DJR Text', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 1vh 0;
+    }
 
-.top_button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background-color: #5DC6E0;
-}
+    .contact_link {
+        font-family: 'Forma DJR Text', sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        margin: 1vh 0;
+        color: black;
+        text-decoration: none;
+    }
 
-.button_img {
-    width: 3vw;
-}
+    .contact_button {
+        border: 2px solid black;
+        padding: 12px;
+        width: 20vw;
+        font-family: 'Forma DJR Text', sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        background-color: transparent;
+        margin: 8vh 0 0;
+        cursor: pointer;
+        align-self: center;
+    }
 
+    .contact_button:hover {
+        color: white;
+        border: 2px solid white;
+        transition: 0.5s;
+    }
 }
