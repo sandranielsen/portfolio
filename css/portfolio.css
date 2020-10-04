@@ -14,26 +14,41 @@
 @media only screen and (min-width: 768px) {
 
     .banner_img {
-        width: 90%;
-        height: 97vh;
-        margin-top: 5vh;
+        width: 100%;
+        height: 100vh;
         object-fit: cover;
     }
 
     .banner {
-        background-color: #CAEFF0;
         display: flex;
         justify-content: center;
     }
 
+    .page_headline {
+        font-size: 40px;
+        font-family: 'Soulcraft', sans-serif;
+        font-weight: 500;
+        margin: 0 0 3vh;
+        display: inline-block;
+    }
+
+    .underline_text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_wrapper {
+        padding: 16vh 5vw;
+        width: 100%;
+    }
+
     .portfolio_article {
-        margin: 16vh 5vw;
-        height: 210vh;
         display: grid;
         grid-template-columns: 46% 46%;
-        grid-template-rows: 60vh 70vh 50vh;
+        grid-template-rows: 30vh 65vh;
         column-gap: 4%;
         row-gap: 10vh;
+        margin: 0 0 16vh;
     }
 
     .portfolio_logo {
@@ -54,14 +69,16 @@
     }
 
     .info_container {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 68% 28%;
+        column-gap: 4%;
+        grid-template-rows: 40vh;
+        margin: 2vh 0;
     }
 
     .button_container {
         display: flex;
         flex-direction: column;
-        margin: auto;
     }
 
     .portfolio_button {
@@ -72,9 +89,9 @@
         font-size: 16px;
         font-weight: 200;
         background-color: transparent;
-        margin: 2vh 0;
+        margin: 5vh 0;
         cursor: pointer;
-        align-self: right;
+        align-self: center;
     }
 
     .portfolio_button:hover {

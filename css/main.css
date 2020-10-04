@@ -15,6 +15,10 @@
 /* Desktop */
 @media only screen and (min-width: 768px) {
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     /* Navigation */
     .navigation_container {
         height: 16vh;
@@ -29,12 +33,20 @@
         margin: 0 2vw;
     }
 
-    .nav_elements {
+    .navigation {
         float: right;
-        display: flex;
-        justify-content: space-between;
         width: 30%;
         margin: 8vh 3vw;
+    }
+
+    nav li {
+        list-style: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
     }
 
     .nav_link {
@@ -65,13 +77,13 @@
         width: 100%;
     }
 
-    .selectednav_link {
+    .active {
         text-decoration: none;
-        font-family: 'Forma DJR Text', sans-serif;
+        font-family: 'Forma DJR Text',
+            sans-serif;
         font-size: 12px;
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;
     }
-
 }
