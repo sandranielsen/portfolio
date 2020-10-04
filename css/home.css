@@ -160,9 +160,9 @@
 
     .about_article {
         display: grid;
-        grid-template-columns: 35% 63%;
+        grid-template-columns: 35% 62%;
         grid-template-rows: 80vh 15vh;
-        column-gap: 2%;
+        column-gap: 3%;
         row-gap: 3vh;
         margin: 3vh 0 0;
     }
