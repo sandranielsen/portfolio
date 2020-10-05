@@ -30,3 +30,17 @@ function navigationHighlighter() {
         }
     });
 }
+
+//Responsive navigation menu //
+const menu = document.getElementById('menu');
+const navUL = document.getElementById('nav-ul');
+
+menu.addEventListener('click', () => {
+    navUL.classList.toggle('show');
+});
+
+function overlay() {
+    el = document.getElementById("overlay");
+    el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+    return false;
+}
