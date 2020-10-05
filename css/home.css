@@ -211,7 +211,7 @@ body {
     }
 
     .intro_container {
-        width: 41%;
+        width: 40%;
         top: 45%;
         left: 77%;
         transform: translate(-50%, -50%);
@@ -219,11 +219,12 @@ body {
 
     .intro_text {
         font-weight: 400;
+        font-size: 4em;
     }
 
     .intro_text1 {
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 1em;
+        font-size: 2.5em;
         font-weight: 200;
     }
 
@@ -235,6 +236,7 @@ body {
     .intro_button {
         height: 9vh;
         float: left;
+        font-size: 2.5em;
     }
 
     .intro_button:hover {
@@ -269,6 +271,10 @@ body {
         display: block;
     }
 
+    .page_headline {
+        font-size: 6em;
+    }
+
     .overlay {
         position: absolute;
         top: 0;
@@ -295,7 +301,7 @@ body {
 
     .subheadline {
         color: white;
-        font-size: 1.5em;
+        font-size: 3em;
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 500;
         display: block;
@@ -324,6 +330,10 @@ body {
         margin: 3vh 0 0;
     }
 
+    .about_text {
+        font-size: 3.2em;
+    }
+
     .about_img {
         width: 100%;
         height: 100%;
@@ -337,7 +347,7 @@ body {
         height: 9vh;
         margin: 3vh 0;
         cursor: pointer;
-
+        font-size: 2.5em;
     }
 
     .about_button:hover {
@@ -355,7 +365,7 @@ body {
     }
 
     .some_icon {
-        width: 70%;
+        width: 200%;
     }
 
     /* Contact section */
@@ -371,6 +381,12 @@ body {
 
     .contact_text {
         margin: 2vh 0;
+        font-size: 3em;
+    }
+
+
+    .contact_info {
+        font-size: 3em;
     }
 
     .contact_button {
@@ -379,6 +395,7 @@ body {
         height: 9vh;
         margin: 8vh 0 0;
         cursor: pointer;
+        font-size: 2.5em;
     }
 
     .contact_button:hover {

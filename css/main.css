@@ -108,7 +108,7 @@ li {
 
     .navigation {
         float: right;
-        width: 30%;
+        width: 40%;
     }
 
     .nav-ul {
@@ -129,7 +129,7 @@ li {
         text-decoration: none;
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 400;
-        font-size: 0.75em;
+        font-size: 2.5em;
         color: black;
         position: relative;
         z-index: 1000;
@@ -139,11 +139,11 @@ li {
     .nav_link::after {
         content: ' ';
         position: absolute;
-        top: -65%;
+        top: -25px;
         transform: translateY(50%);
         width: 0;
         left: 0;
-        height: 16px;
+        height: 48px;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         transition: width 0.25s ease-in-out;
         z-index: -1;
@@ -156,7 +156,7 @@ li {
     .active {
         text-decoration: none;
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 0.75em;
+        font-size: 2.5em;
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;
