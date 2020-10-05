@@ -112,6 +112,7 @@
 
     .portfolio_text {
         margin: auto;
+        font-size: 1.5em;
     }
 
     .portfolio_img {
@@ -137,6 +138,7 @@
         height: 9vh;
         margin: auto 0;
         cursor: pointer;
+        font-size: 1.25em;
     }
 
     .portfolio_button:hover {

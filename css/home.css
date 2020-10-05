@@ -219,11 +219,13 @@ body {
 
     .intro_text {
         font-weight: 400;
+        font-size: 1.5em;
     }
 
     .intro_text1 {
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 200;
+        font-size: 1.25em;
     }
 
     .name {
@@ -234,6 +236,7 @@ body {
     .intro_button {
         height: 9vh;
         float: left;
+        font-size: 1.25em;
     }
 
     .intro_button:hover {
@@ -301,6 +304,7 @@ body {
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 500;
         display: block;
+        font-size: 2em;
     }
 
     .body {
@@ -308,6 +312,7 @@ body {
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 400;
         display: block;
+        font-size: 1.5em;
     }
 
     /* About section */
@@ -338,6 +343,7 @@ body {
         height: 9vh;
         margin: 3vh 0;
         cursor: pointer;
+        font-size: 1.25em;
     }
 
     .about_button:hover {
@@ -345,6 +351,10 @@ body {
         border: 2px solid black;
         background-color: black;
         transition: 0.5s;
+    }
+
+    .about_text {
+        font-size: 1.5em;
     }
 
     .some_container {
@@ -371,6 +381,7 @@ body {
 
     .contact_text {
         margin: 2vh 0;
+        font-size: 1.5em;
     }
 
     .contact_button {
@@ -379,6 +390,11 @@ body {
         height: 9vh;
         margin: 8vh 0 0;
         cursor: pointer;
+        font-size: 1.25em;
+    }
+
+    .contact_info {
+        font-size: 1.5em;
     }
 
     .contact_button:hover {
