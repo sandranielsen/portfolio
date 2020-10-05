@@ -88,7 +88,7 @@
 
     .page_headline {
         margin: 0 0 3vh;
-        font-size: 6em;
+        font-size: 4em;
     }
 
     .portfolio_wrapper {
@@ -112,7 +112,6 @@
 
     .portfolio_text {
         margin: auto;
-        font-size: 3.2em;
     }
 
     .portfolio_img {
@@ -138,7 +137,6 @@
         height: 9vh;
         margin: auto 0;
         cursor: pointer;
-        font-size: 2.5em;
     }
 
     .portfolio_button:hover {

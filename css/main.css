@@ -129,7 +129,6 @@ li {
         text-decoration: none;
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 400;
-        font-size: 2.5em;
         color: black;
         position: relative;
         z-index: 1000;
@@ -156,7 +155,6 @@ li {
     .active {
         text-decoration: none;
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 2.5em;
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;
