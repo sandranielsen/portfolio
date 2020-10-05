@@ -25,7 +25,7 @@
     }
 
     .page_headline {
-        font-size: 40px;
+        font-size: 2.5em;
         font-family: 'Soulcraft', sans-serif;
         font-weight: 500;
         margin: 0 0 3vh;
@@ -59,7 +59,7 @@
     .portfolio_text {
         width: 100%;
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 300;
         margin: auto;
     }
@@ -83,10 +83,11 @@
 
     .portfolio_button {
         border: 2px solid black;
-        padding: 12px;
+        padding: 2vh 1vw;
         width: 20vw;
+        height: 9vh;
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 200;
         background-color: transparent;
         margin: auto 0;
@@ -95,8 +96,9 @@
     }
 
     .portfolio_button:hover {
-        color: #5DC6E0;
-        border: 2px solid #5DC6E0;
+        color: white;
+        border: 2px solid black;
+        background-color: black;
         transition: 0.5s;
     }
 }

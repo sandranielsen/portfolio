@@ -25,7 +25,7 @@
     .intro_container {
         position: absolute;
         z-index: 2;
-        width: 40vw;
+        width: 41%;
         top: 45%;
         left: 77%;
         transform: translate(-50%, -50%);
@@ -33,7 +33,7 @@
 
     .intro_text {
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 24px;
+        font-size: 1.5em;
         font-weight: 400;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         margin: 1vh 0;
@@ -46,7 +46,7 @@
 
     .intro_text1 {
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 200;
     }
 
@@ -57,10 +57,10 @@
 
     .intro_button {
         border: 2px solid black;
-        padding: 12px;
-        width: 20vw;
+        padding: 2vh 1vw;
+        height: 9vh;
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 200;
         background-color: transparent;
         margin: 3vh 0;
@@ -81,7 +81,7 @@
     }
 
     .page_headline {
-        font-size: 48px;
+        font-size: 3em;
         font-family: 'Soulcraft', sans-serif;
         font-weight: 500;
         margin: 0 0 3vh;
@@ -140,14 +140,14 @@
 
     .subheadline {
         color: white;
-        font-size: 24px;
+        font-size: 1.5em;
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 500;
     }
 
     .body {
         color: white;
-        font-size: 16px;
+        font-size: 1em;
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 400;
     }
@@ -175,19 +175,20 @@
 
     .about_text {
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 300;
     }
 
     .about_button {
         border: 2px solid black;
-        padding: 12px;
-        width: 25vw;
+        padding: 2vh 1vw;
+        width: 26vw;
+        height: 9vh;
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 200;
         background-color: transparent;
-        margin: 3vh auto;
+        margin: 3vh 0;
         cursor: pointer;
         justify-self: center;
     }
@@ -223,21 +224,21 @@
 
     .contact_text {
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 200;
         margin: 2vh 0;
     }
 
     .contact_info {
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 500;
         margin: 1vh 0;
     }
 
     .contact_link {
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 200;
         margin: 1vh 0;
         color: black;
@@ -246,10 +247,11 @@
 
     .contact_button {
         border: 2px solid black;
-        padding: 12px;
+        padding: 2vh 1vw;
         width: 20vw;
+        height: 9vh;
         font-family: 'Forma DJR Text', sans-serif;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 200;
         background-color: transparent;
         margin: 8vh 0 0;
