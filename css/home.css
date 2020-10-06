@@ -211,15 +211,15 @@ body {
     }
 
     .intro_container {
-        width: 40%;
+        width: 35%;
         top: 45%;
-        left: 77%;
+        left: 75%;
         transform: translate(-50%, -50%);
     }
 
     .intro_text {
         font-weight: 400;
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     .intro_text1 {
@@ -229,7 +229,7 @@ body {
     }
 
     .name {
-        width: 40vw;
+        width: 34vw;
         margin: 1vh 0;
     }
 
@@ -312,7 +312,7 @@ body {
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 400;
         display: block;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     /* About section */
@@ -354,7 +354,7 @@ body {
     }
 
     .about_text {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .some_container {
@@ -381,7 +381,7 @@ body {
 
     .contact_text {
         margin: 2vh 0;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .contact_button {
@@ -394,7 +394,7 @@ body {
     }
 
     .contact_info {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .contact_button:hover {
