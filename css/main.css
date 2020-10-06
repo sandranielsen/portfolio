@@ -108,7 +108,7 @@ li {
 
     .navigation {
         float: right;
-        width: 30%;
+        width: 40%;
     }
 
     .nav-ul {
@@ -132,22 +132,22 @@ li {
         color: black;
         position: relative;
         z-index: 1000;
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
 
     .nav_link::after {
         content: ' ';
         position: absolute;
-        top: -12px;
+        top: -8px;
         transform: translateY(50%);
         width: 0;
         left: 0;
-        height: 24px;
+        height: 18px;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         transition: width 0.25s ease-in-out;
         z-index: -1;
-        font-size: 1.25em;
+        font-size: 1;
     }
 
     .nav_link:hover::after {
@@ -160,7 +160,7 @@ li {
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
     .navigation .icon {

@@ -332,7 +332,7 @@ body {
 
     .about_article {
         display: grid;
-        grid-template-columns: 25% 72%;
+        grid-template-columns: 30% 67%;
         grid-template-rows: 80vh 15vh;
         column-gap: 3%;
         row-gap: 3vh;
@@ -353,7 +353,7 @@ body {
     .some_container {
         display: flex;
         justify-content: space-around;
-        width: 50%;
+        width: 70%;
         margin: auto;
     }
 
