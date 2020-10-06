@@ -332,7 +332,7 @@ body {
 
     .about_article {
         display: grid;
-        grid-template-columns: 30% 67%;
+        grid-template-columns: 25% 72%;
         grid-template-rows: 80vh 15vh;
         column-gap: 3%;
         row-gap: 3vh;
@@ -344,22 +344,6 @@ body {
         height: 100%;
         object-fit: cover;
         margin: 0;
-    }
-
-    .about_button {
-        padding: 2vh 1vw;
-        width: 26vw;
-        height: 9vh;
-        margin: 3vh 0;
-        cursor: pointer;
-        font-size: 1.25em;
-    }
-
-    .about_button:hover {
-        color: white;
-        border: 2px solid black;
-        background-color: black;
-        transition: 0.5s;
     }
 
     .about_text {
@@ -374,7 +358,7 @@ body {
     }
 
     .some_icon {
-        width: 200%;
+        width: 100%;
     }
 
     /* Contact section */
