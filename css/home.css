@@ -202,8 +202,15 @@ body {
 
     /* Header section */
     .header_img {
-        width: 100%;
         display: block;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
     }
 
     .mobile_img {
@@ -312,7 +319,7 @@ body {
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 400;
         display: block;
-        font-size: 1em;
+        font-size: 1.25em;
     }
 
     /* About section */
@@ -354,7 +361,7 @@ body {
     }
 
     .about_text {
-        font-size: 1em;
+        font-size: 1.25em;
     }
 
     .some_container {
@@ -381,7 +388,7 @@ body {
 
     .contact_text {
         margin: 2vh 0;
-        font-size: 1em;
+        font-size: 1.25em;
     }
 
     .contact_button {
@@ -394,7 +401,7 @@ body {
     }
 
     .contact_info {
-        font-size: 1em;
+        font-size: 1.25em;
     }
 
     .contact_button:hover {
