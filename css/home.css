@@ -213,6 +213,7 @@ body {
     .banner {
         display: flex;
         justify-content: center;
+        margin-bottom: 3vh;
     }
 
     .mobile_img {
@@ -327,7 +328,7 @@ body {
 
     /* About section */
     .about_container {
-        padding: 13vh 5vw;
+        padding: 16vh 5vw;
         width: 100%;
     }
 
@@ -372,6 +373,7 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
+        height: 100%;
         box-shadow: 0 8px 10px 3px black;
     }
 
