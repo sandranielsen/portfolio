@@ -133,17 +133,18 @@ li {
         position: relative;
         z-index: 1000;
         font-size: 1.25vw;
+        height: 1.5vw;
     }
 
 
     .nav_link::after {
         content: ' ';
         position: absolute;
-        top: -8px;
+        top: -0.75vw;
         transform: translateY(50%);
         width: 0;
         left: 0;
-        height: 18px;
+        height: 1.5vw;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         transition: width 0.25s ease-in-out;
         z-index: -1;

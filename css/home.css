@@ -246,6 +246,7 @@ body {
         height: 9vh;
         float: left;
         font-size: 1.4vw;
+        cursor: pointer;
     }
 
     .intro_button:hover {
@@ -326,7 +327,7 @@ body {
 
     /* About section */
     .about_container {
-        padding: 16vh 5vw 16vh;
+        padding: 13vh 5vw;
         width: 100%;
     }
 
@@ -346,15 +347,21 @@ body {
         font-size: 1.4vw;
     }
 
+    .text {
+        position: relative;
+    }
+
     .some_container {
         display: flex;
         justify-content: space-around;
         width: 80%;
         margin: 4vh 2vw auto;
+        position: absolute;
+        bottom: 0;
     }
 
     .some_icon {
-        width: 60%;
+        width: 80%;
     }
 
     /* Contact section */
