@@ -38,7 +38,7 @@ body {
 
 .intro_text {
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25em;
+    font-size: 1.4vw;
     font-weight: 400;
     background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
     margin: 1vh 0;
@@ -55,7 +55,7 @@ body {
 
 .intro_text1 {
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 200;
 }
 
@@ -65,7 +65,7 @@ body {
     text-align: center;
     height: 6vh;
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 200;
     background-color: transparent;
     margin: 3vh 0;
@@ -80,7 +80,7 @@ body {
 }
 
 .page_headline {
-    font-size: 3em;
+    font-size: 3.75vw;
     font-family: 'Soulcraft', sans-serif;
     font-weight: 500;
     margin: 0 0 3vh;
@@ -114,7 +114,7 @@ body {
 
 .about_text {
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 300;
 }
 
@@ -129,7 +129,7 @@ body {
     width: 50vw;
     height: 5vh;
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 200;
     background-color: transparent;
     margin: 1vh 0;
@@ -162,20 +162,20 @@ body {
 
 .contact_text {
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 200;
 }
 
 .contact_info {
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 500;
     margin: 1vh 0;
 }
 
 .contact_link {
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 200;
     margin: 1vh 0;
     color: black;
@@ -189,7 +189,7 @@ body {
     text-align: center;
     height: 6vh;
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 200;
     background-color: transparent;
     margin: 5vh 0 0;
@@ -228,13 +228,13 @@ body {
 
     .intro_text {
         font-weight: 400;
-        font-size: 2em;
+        font-size: 2.5vw;
     }
 
     .intro_text1 {
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 200;
-        font-size: 1.25em;
+        font-size: 1.4vw;
     }
 
     .name {
@@ -245,7 +245,7 @@ body {
     .intro_button {
         height: 9vh;
         float: left;
-        font-size: 1.25em;
+        font-size: 1.4vw;
     }
 
     .intro_button:hover {
@@ -266,9 +266,9 @@ body {
     }
 
     .content {
-        height: 43%;
-        width: 43%;
-        margin: 0 2vw;
+        height: 29.5%;
+        width: 29.5%;
+        margin: 0 1vw;
         position: relative;
         justify-content: center;
     }
@@ -281,7 +281,7 @@ body {
     }
 
     .page_headline {
-        font-size: 5em;
+        font-size: 6.25vw;
     }
 
     .overlay {
@@ -313,7 +313,7 @@ body {
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 500;
         display: block;
-        font-size: 2em;
+        font-size: 2.5vw;
     }
 
     .body {
@@ -321,7 +321,7 @@ body {
         font-family: 'Forma DJR Text', sans-serif;
         font-weight: 400;
         display: block;
-        font-size: 1.25em;
+        font-size: 1.4vw;
     }
 
     /* About section */
@@ -331,11 +331,7 @@ body {
     }
 
     .about_article {
-        display: grid;
-        grid-template-columns: 30% 67%;
-        grid-template-rows: 80vh 15vh;
-        column-gap: 3%;
-        row-gap: 3vh;
+        display: flex;
         margin: 3vh 0 0;
     }
 
@@ -343,22 +339,22 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        margin: 0;
+        margin: 0 0 0 2vw;
     }
 
     .about_text {
-        font-size: 1.25em;
+        font-size: 1.4vw;
     }
 
     .some_container {
         display: flex;
         justify-content: space-around;
-        width: 70%;
-        margin: auto;
+        width: 80%;
+        margin: 4vh 2vw auto;
     }
 
     .some_icon {
-        width: 100%;
+        width: 60%;
     }
 
     /* Contact section */
@@ -374,7 +370,7 @@ body {
 
     .contact_text {
         margin: 2vh 0;
-        font-size: 1.25em;
+        font-size: 1.4vw;
     }
 
     .contact_button {
@@ -383,16 +379,21 @@ body {
         height: 9vh;
         margin: 8vh 0 0;
         cursor: pointer;
-        font-size: 1.25em;
+        font-size: 1.4vw;
     }
 
     .contact_info {
-        font-size: 1.25em;
+        font-size: 1.4vw;
+    }
+
+    .contact_link {
+        font-size: 1.4vw;
     }
 
     .contact_button:hover {
         color: white;
-        border: 2px solid white;
+        background: black;
+        border: 2px solid black;
         transition: 0.5s;
     }
 }

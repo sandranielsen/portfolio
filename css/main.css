@@ -62,7 +62,7 @@ li {
     text-decoration: none;
     font-family: 'Forma DJR Text', sans-serif;
     font-weight: 400;
-    font-size: 2em;
+    font-size: 2.5vw;
     color: black;
     position: relative;
     z-index: 1000;
@@ -72,7 +72,7 @@ li {
     background-color: transparent;
     border: 0;
     color: black;
-    font-size: 2em;
+    font-size: 2.5vw;
     cursor: pointer;
     margin: auto 2vw;
 }
@@ -132,7 +132,7 @@ li {
         color: black;
         position: relative;
         z-index: 1000;
-        font-size: 1em;
+        font-size: 1.25vw;
     }
 
 
@@ -147,7 +147,7 @@ li {
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         transition: width 0.25s ease-in-out;
         z-index: -1;
-        font-size: 1;
+        font-size: 1.25vw;
     }
 
     .nav_link:hover::after {
@@ -160,7 +160,7 @@ li {
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;
-        font-size: 1em;
+        font-size: 1.25vw;
     }
 
     .navigation .icon {

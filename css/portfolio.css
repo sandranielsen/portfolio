@@ -13,7 +13,7 @@
 }
 
 .page_headline {
-    font-size: 2.5em;
+    font-size: 3.125vw;
     font-family: 'Soulcraft', sans-serif;
     font-weight: 500;
     margin: 2vh 0;
@@ -33,7 +33,7 @@
 .portfolio_text {
     width: 100%;
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.4vw;
     font-weight: 300;
     margin: 2vh 0 3vh;
 }
@@ -64,7 +64,7 @@
     text-align: center;
     height: 6vh;
     font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     font-weight: 200;
     background-color: transparent;
     margin: 2vh 0;
@@ -90,7 +90,7 @@
 
     .page_headline {
         margin: 0 0 3vh;
-        font-size: 4em;
+        font-size: 5vw;
     }
 
     .portfolio_wrapper {
@@ -114,7 +114,7 @@
 
     .portfolio_text {
         margin: auto;
-        font-size: 1.25em;
+        font-size: 1.4vw;
     }
 
     .portfolio_img {
@@ -140,7 +140,7 @@
         height: 9vh;
         margin: auto 0;
         cursor: pointer;
-        font-size: 1.25em;
+        font-size: 1.4vw;
     }
 
     .portfolio_button:hover {
