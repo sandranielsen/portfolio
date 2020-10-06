@@ -61,8 +61,9 @@ body {
 
 .intro_button {
     border: 2px solid black;
-    padding: 1vh 2vw;
-    height: 5vh;
+    padding: 1vh 3vw;
+    text-align: center;
+    height: 6vh;
     font-family: 'Forma DJR Text', sans-serif;
     font-size: 1em;
     font-weight: 200;
@@ -183,9 +184,10 @@ body {
 
 .contact_button {
     border: 2px solid black;
-    padding: 1vh 1vw;
-    width: 35vw;
-    height: 5vh;
+    padding: 1vh 3vw;
+    display: inline-block;
+    text-align: center;
+    height: 6vh;
     font-family: 'Forma DJR Text', sans-serif;
     font-size: 1em;
     font-weight: 200;
@@ -330,7 +332,7 @@ body {
 
     .about_article {
         display: grid;
-        grid-template-columns: 35% 62%;
+        grid-template-columns: 30% 67%;
         grid-template-rows: 80vh 15vh;
         column-gap: 3%;
         row-gap: 3vh;
