@@ -37,8 +37,8 @@ body {
 }
 
 .intro_text {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
     font-weight: 400;
     background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
     margin: 1vh 0;
@@ -54,8 +54,8 @@ body {
 }
 
 .intro_text1 {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
     font-weight: 200;
 }
 
@@ -64,8 +64,8 @@ body {
     padding: 1vh 3vw;
     text-align: center;
     height: 6vh;
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
     font-weight: 200;
     background-color: transparent;
     margin: 3vh 0;
@@ -80,7 +80,7 @@ body {
 }
 
 .page_headline {
-    font-size: 3.75vw;
+    font-size: 3em;
     font-family: 'Soulcraft', sans-serif;
     font-weight: 500;
     margin: 0 0 3vh;
@@ -113,9 +113,9 @@ body {
 }
 
 .about_text {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
 }
 
 .about_img {
@@ -123,26 +123,12 @@ body {
     margin: 2vh 0;
 }
 
-.about_button {
-    border: 2px solid black;
-    padding: 1vh 1vw;
-    width: 50vw;
-    height: 5vh;
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
-    font-weight: 200;
-    background-color: transparent;
-    margin: 1vh 0;
-    justify-self: center;
-    float: left;
-}
 
 .some_container {
     display: flex;
     justify-content: space-around;
     width: 35%;
     margin: 4vw;
-    float: right;
 }
 
 .some_icon {
@@ -161,22 +147,22 @@ body {
 }
 
 .contact_text {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
-    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
 }
 
 .contact_info {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
     margin: 1vh 0;
 }
 
 .contact_link {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
-    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
     margin: 1vh 0;
     color: black;
     text-decoration: none;
@@ -188,8 +174,8 @@ body {
     display: inline-block;
     text-align: center;
     height: 6vh;
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
     font-weight: 200;
     background-color: transparent;
     margin: 5vh 0 0;
@@ -233,7 +219,7 @@ body {
     }
 
     .intro_text1 {
-        font-family: 'Forma DJR Text', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 200;
         font-size: 1.4vw;
     }
@@ -312,7 +298,7 @@ body {
 
     .subheadline {
         color: white;
-        font-family: 'Forma DJR Text', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         display: block;
         font-size: 2.5vw;
@@ -320,7 +306,7 @@ body {
 
     .body {
         color: white;
-        font-family: 'Forma DJR Text', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         display: block;
         font-size: 1.4vw;

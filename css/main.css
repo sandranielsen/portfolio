@@ -7,7 +7,40 @@
     font-family: "sans-serif";
 }
 
-@import url("https://use.typekit.net/tqs0sny.css");
+@font-face {
+    font-family: Soulcraft;
+    src: url(Soulcraft.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.tff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Bold.tff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-ExtraBold.tff);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Light.tff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Thin.tff);
+    font-weight: 100;
+}
 
 body {
     overflow-x: hidden;
@@ -60,9 +93,9 @@ li {
 
 .nav_link {
     text-decoration: none;
-    font-family: 'Forma DJR Text', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 2.5vw;
+    font-size: 2em;
     color: black;
     position: relative;
     z-index: 1000;
@@ -72,7 +105,7 @@ li {
     background-color: transparent;
     border: 0;
     color: black;
-    font-size: 2.5vw;
+    font-size: 2em;
     cursor: pointer;
     margin: auto 2vw;
 }
@@ -127,7 +160,7 @@ li {
 
     .nav_link {
         text-decoration: none;
-        font-family: 'Forma DJR Text', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         color: black;
         position: relative;
@@ -157,7 +190,7 @@ li {
 
     .active {
         text-decoration: none;
-        font-family: 'Forma DJR Text', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;

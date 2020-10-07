@@ -13,7 +13,7 @@
 }
 
 .page_headline {
-    font-size: 3.125vw;
+    font-size: 2.5em;
     font-family: 'Soulcraft', sans-serif;
     font-weight: 500;
     margin: 2vh 0;
@@ -32,8 +32,8 @@
 
 .portfolio_text {
     width: 100%;
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
     font-weight: 300;
     margin: 2vh 0 3vh;
 }
@@ -63,8 +63,8 @@
     display: inline-block;
     text-align: center;
     height: 6vh;
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
     font-weight: 200;
     background-color: transparent;
     margin: 2vh 0;
