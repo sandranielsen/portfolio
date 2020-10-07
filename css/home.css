@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "sans-serif";
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Mobile */
@@ -66,7 +66,7 @@ body {
     height: 6vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    font-weight: 200;
+    font-weight: 100;
     background-color: transparent;
     margin: 3vh 0;
     float: right;
@@ -214,7 +214,7 @@ body {
     }
 
     .intro_text {
-        font-weight: 400;
+        font-weight: 500;
         font-size: 2.5vw;
     }
 
@@ -332,6 +332,7 @@ body {
 
     .about_text {
         font-size: 1.4vw;
+        margin-bottom: 1vh;
     }
 
     .text {
@@ -343,7 +344,6 @@ body {
         justify-content: space-around;
         width: 80%;
         margin: 4vh 2vw auto;
-        position: absolute;
         bottom: 0;
     }
 

@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "sans-serif";
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Mobile */
@@ -34,7 +34,7 @@
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 100;
     margin: 2vh 0 3vh;
 }
 

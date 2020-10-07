@@ -4,42 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "sans-serif";
+    font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
     font-family: Soulcraft;
     src: url(Soulcraft.ttf);
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-Regular.tff);
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-Bold.tff);
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-ExtraBold.tff);
-    font-weight: 800;
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-Light.tff);
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-Thin.tff);
-    font-weight: 100;
 }
 
 body {
@@ -94,7 +64,7 @@ li {
 .nav_link {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2em;
     color: black;
     position: relative;
