@@ -71,6 +71,17 @@ li {
     z-index: 1000;
 }
 
+.active {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    color: black;
+    background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
+    position: relative;
+    z-index: 1000;
+}
+
 .menu {
     background-color: transparent;
     border: 0;
