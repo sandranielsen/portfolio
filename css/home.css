@@ -113,7 +113,7 @@ body {
 }
 
 .about_text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forma DJR Text', sans-serif;
     font-size: 1em;
     font-weight: 100;
 }
@@ -147,20 +147,22 @@ body {
 }
 
 .contact_text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forma DJR Text', sans-serif;
     font-size: 1em;
     font-weight: 100;
 }
 
 .contact_info {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forma DJR Text',
+        sans-serif;
     font-size: 1em;
     font-weight: 600;
     margin: 1vh 0;
 }
 
 .contact_link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forma DJR Text',
+        sans-serif;
     font-size: 1em;
     font-weight: 100;
     margin: 1vh 0;
@@ -174,7 +176,8 @@ body {
     display: inline-block;
     text-align: center;
     height: 6vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forma DJR Text',
+        sans-serif;
     font-size: 1em;
     font-weight: 200;
     background-color: transparent;
@@ -219,7 +222,8 @@ body {
     }
 
     .intro_text1 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Forma DJR Text',
+            sans-serif;
         font-weight: 200;
         font-size: 1.4vw;
     }
@@ -298,7 +302,8 @@ body {
 
     .subheadline {
         color: white;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Forma DJR Text',
+            sans-serif;
         font-weight: 500;
         display: block;
         font-size: 2.5vw;
@@ -306,7 +311,8 @@ body {
 
     .body {
         color: white;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Forma DJR Text',
+            sans-serif;
         font-weight: 400;
         display: block;
         font-size: 1.4vw;

@@ -8,8 +8,50 @@
 }
 
 @font-face {
-    font-family: Soulcraft;
-    src: url(Soulcraft.ttf);
+    font-family: "Soulcraft";
+    src: url("../fonts/Soulcraft.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Forma DJR Text";
+    src: url("../fonts/formadjrtext-bold-edu-webfont.woff") format("woff"),
+        url("../fonts/formadjrtext-bold-edu-webfont.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Forma DJR Text";
+    src: url("../fonts/formadjrtext-medium-edu-webfont.woff") format("woff"),
+        url("../fonts/formadjrtext-medium-edu-webfont.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Forma DJR Text";
+    src: url("../fonts/formadjrtext-regular-edu-webfont.woff") format("woff"),
+        url("../fonts/formadjrtext-regular-edu-webfont.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Forma DJR Text";
+    src: url("../fonts/formadjrtext-light-edu-webfont.woff") format("woff"),
+        url("../fonts/formadjrtext-light-edu-webfont.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Forma DJR Text";
+    src: url("../fonts/formadjrtext-extralight-edu-webfont.woff") format("woff"),
+        url("../fonts/formadjrtext-extralight-edu-webfont.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
 }
 
 body {
@@ -63,7 +105,8 @@ li {
 
 .nav_link {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forma DJR Text',
+        sans-serif;
     font-weight: 500;
     font-size: 2em;
     color: black;
@@ -73,7 +116,8 @@ li {
 
 .active {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Forma DJR Text',
+        sans-serif;
     font-weight: 500;
     font-size: 2em;
     color: black;
@@ -141,7 +185,8 @@ li {
 
     .nav_link {
         text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Forma DJR Text',
+            sans-serif;
         font-weight: 400;
         color: black;
         position: relative;
@@ -171,7 +216,8 @@ li {
 
     .active {
         text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Forma DJR Text',
+            sans-serif;
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;
