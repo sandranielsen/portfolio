@@ -3,8 +3,11 @@ let nav = document.getElementById('nav');
 window.onscroll = function () {
     if (window.pageYOffset > 50) {
         nav.style.background = "#ffffff";
+        nav.style.boxShadow="0 2px 10px -8px black"
+            
     } else {
         nav.style.background = "transparent";
+        nav.style.boxShadow="0 0 0 0 transparent"
     }
 }
 

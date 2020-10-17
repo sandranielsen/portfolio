@@ -7,6 +7,8 @@
     font-family: "Montserrat", sans-serif;
 }
 
+/* Fonts */
+
 @font-face {
     font-family: "Soulcraft";
     src: url("../fonts/Soulcraft.ttf") format("truetype");
@@ -54,8 +56,45 @@
     font-style: normal;
 }
 
+/* Mobile */
+
 body {
     overflow-x: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Soulcraft', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+a {
+    font-size: 1em;
+    font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 .navigation_container {
@@ -76,13 +115,13 @@ nav li {
 
 .logo {
     height: 10vh;
-    margin: auto 2vw;
+    margin: auto 4vw;
 }
 
 .navigation {
     float: right;
     width: 15%;
-    margin: 3vh 3vw;
+    margin: 2vh 2vw 1vh;
 }
 
 .nav-ul.show {
@@ -91,22 +130,23 @@ nav li {
     flex-wrap: wrap;
     align-content: center;
     background-color: white;
-    padding: 20vh 50vw 10vh;
-    margin: -10vh 0 0 -82vw;
+    padding: 20vh 50vw;
+    margin: -10vh 0 0 -83vw;
 }
 
-.nav-ul {
+#nav-ul {
     width: 100%;
+    height: 80vh;
 }
 
 li {
     margin: 3vh;
+
 }
 
 .nav_link {
     text-decoration: none;
-    font-family: 'Forma DJR Text',
-        sans-serif;
+    font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 2em;
     color: black;
@@ -116,8 +156,7 @@ li {
 
 .active {
     text-decoration: none;
-    font-family: 'Forma DJR Text',
-        sans-serif;
+    font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 2em;
     color: black;
@@ -135,6 +174,10 @@ li {
     margin: auto 2vw;
 }
 
+.menu_img {
+    width: 10vw;
+}
+
 /* Tablet */
 @media only screen and (min-width: 600px) {}
 
@@ -145,9 +188,44 @@ li {
         scroll-behavior: smooth;
     }
 
+    h1 {
+        font-size: 4em;
+        font-family: 'Soulcraft', Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font-size: 3em;
+        font-family: 'Soulcraft', Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 2em;
+        font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-size: 1.125em;
+        font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 1.25em;
+        font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+        font-weight: 200;
+    }
+
+    a {
+        font-size: 1em;
+        font-family: 'Forma DJR Text', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+    }
+
     /* Navigation */
     .navigation_container {
-        height: 16vh;
+        height: 12vh;
         width: 100%;
         position: fixed;
         z-index: 5;
@@ -160,17 +238,13 @@ li {
     }
 
     .logo {
-        height: 16vh;
+        height: 12vh;
         margin: 0 2vw;
     }
 
     .navigation {
         float: right;
         width: 40%;
-    }
-
-    .nav-ul {
-        margin: auto 2vw;
     }
 
     nav li {
@@ -181,20 +255,20 @@ li {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        margin: auto;
+        height: 12vh;
     }
 
     .nav_link {
         text-decoration: none;
-        font-family: 'Forma DJR Text',
-            sans-serif;
-        font-weight: 400;
         color: black;
         position: relative;
-        z-index: 1000;
-        font-size: 1.25vw;
-        height: 1.5vw;
+        font-size: 1em;
     }
 
+    #nav-ul {
+        height: 12vh;
+    }
 
     .nav_link::after {
         content: ' ';
@@ -207,7 +281,7 @@ li {
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         transition: width 0.25s ease-in-out;
         z-index: -1;
-        font-size: 1.25vw;
+        font-size: 1em;
     }
 
     .nav_link:hover::after {
@@ -221,7 +295,7 @@ li {
         color: black;
         background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
         display: inline-block;
-        font-size: 1.25vw;
+        font-size: 1em;
     }
 
     .navigation .icon {

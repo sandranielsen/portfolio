@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Forma DJR Text", sans-serif;
 }
 
 /* Mobile */
@@ -19,8 +19,16 @@ body {
     display: none;
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+
+}
+
 .mobile_img {
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .main_container {
@@ -30,46 +38,10 @@ body {
 .intro_container {
     position: absolute;
     z-index: 2;
-    width: 80%;
-    top: 24%;
-    left: 50%;
+    width: 60%;
+    top: 17%;
+    left: 65%;
     transform: translate(-50%, -50%);
-}
-
-.intro_text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25em;
-    font-weight: 400;
-    background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
-    margin: 1vh 0;
-    display: inline-block;
-}
-
-.underline_text {
-    float: right;
-}
-
-.name {
-    width: 100%;
-}
-
-.intro_text1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    font-weight: 200;
-}
-
-.intro_button {
-    border: 2px solid black;
-    padding: 1vh 3vw;
-    text-align: center;
-    height: 6vh;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    font-weight: 100;
-    background-color: transparent;
-    margin: 3vh 0;
-    float: right;
 }
 
 /* Portfolio section */
@@ -80,9 +52,6 @@ body {
 }
 
 .page_headline {
-    font-size: 3em;
-    font-family: 'Soulcraft', sans-serif;
-    font-weight: 500;
     margin: 0 0 3vh;
     background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
     display: inline-block;
@@ -112,23 +81,23 @@ body {
     width: 100%;
 }
 
-.about_text {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
-    font-weight: 100;
-}
-
 .about_img {
     width: 100%;
     margin: 2vh 0;
 }
 
-
 .some_container {
     display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+}
+
+.some_wrapper {
+    display: flex;
     justify-content: space-around;
-    width: 35%;
-    margin: 4vw;
+    width: 50%;
+    margin: 4vh 4vw 0;
 }
 
 .some_icon {
@@ -146,25 +115,13 @@ body {
     box-shadow: 0 8px 10px 3px black;
 }
 
-.contact_text {
-    font-family: 'Forma DJR Text', sans-serif;
-    font-size: 1em;
-    font-weight: 100;
-}
 
 .contact_info {
-    font-family: 'Forma DJR Text',
-        sans-serif;
-    font-size: 1em;
-    font-weight: 600;
     margin: 1vh 0;
+    font-weight: 600;
 }
 
 .contact_link {
-    font-family: 'Forma DJR Text',
-        sans-serif;
-    font-size: 1em;
-    font-weight: 100;
     margin: 1vh 0;
     color: black;
     text-decoration: none;
@@ -176,9 +133,6 @@ body {
     display: inline-block;
     text-align: center;
     height: 6vh;
-    font-family: 'Forma DJR Text',
-        sans-serif;
-    font-size: 1em;
     font-weight: 200;
     background-color: transparent;
     margin: 5vh 0 0;
@@ -214,37 +168,6 @@ body {
         top: 45%;
         left: 75%;
         transform: translate(-50%, -50%);
-    }
-
-    .intro_text {
-        font-weight: 500;
-        font-size: 2.5vw;
-    }
-
-    .intro_text1 {
-        font-family: 'Forma DJR Text',
-            sans-serif;
-        font-weight: 200;
-        font-size: 1.4vw;
-    }
-
-    .name {
-        width: 34vw;
-        margin: 1vh 0;
-    }
-
-    .intro_button {
-        height: 9vh;
-        float: left;
-        font-size: 1.4vw;
-        cursor: pointer;
-    }
-
-    .intro_button:hover {
-        color: white;
-        border: 2px solid black;
-        background-color: black;
-        transition: 0.5s;
     }
 
     /* Portfolio section */
@@ -302,18 +225,12 @@ body {
 
     .subheadline {
         color: white;
-        font-family: 'Forma DJR Text',
-            sans-serif;
-        font-weight: 500;
         display: block;
         font-size: 2.5vw;
     }
 
     .body {
         color: white;
-        font-family: 'Forma DJR Text',
-            sans-serif;
-        font-weight: 400;
         display: block;
         font-size: 1.4vw;
     }
@@ -337,7 +254,6 @@ body {
     }
 
     .about_text {
-        font-size: 1.4vw;
         margin-bottom: 1vh;
     }
 
