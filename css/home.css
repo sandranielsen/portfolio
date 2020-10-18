@@ -89,8 +89,6 @@ body {
 .some_container {
     display: flex;
     justify-content: center;
-    bottom: 0;
-    position: absolute;
 }
 
 .some_wrapper {
@@ -267,6 +265,7 @@ body {
         width: 80%;
         margin: 4vh 2vw auto;
         bottom: 0;
+        position: absolute;
     }
 
     .some_icon {
