@@ -11,7 +11,7 @@ window.onscroll = function () {
     }
 }
 
-//Active navigation element highlight on page scroll - source: https://codepen.io/dbilanoski/pen/LabpzG//
+// Active navigation element highlight on page scroll - source: https://codepen.io/dbilanoski/pen/LabpzG/ //
 const sections = document.querySelectorAll("section[id]");
 
 window.addEventListener("scroll", navigationHighlighter);
@@ -34,7 +34,7 @@ function navigationHighlighter() {
     });
 }
 
-//Responsive navigation menu //
+// Responsive navigation menu //
 const menu = document.getElementById('menu');
 const navUL = document.getElementById('nav-ul');
 
@@ -42,6 +42,7 @@ menu.addEventListener('click', () => {
     navUL.classList.toggle('show');
 });
 
+// Image overlay //
 function overlay() {
     el = document.getElementById("overlay");
     el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";

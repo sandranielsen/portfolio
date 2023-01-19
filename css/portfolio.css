@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Forma DJR Text",
-        sans-serif;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 /* Mobile */
@@ -56,7 +55,7 @@
 
 .portfolio_link {
     width: 100%;
-    font-family: 'Forma DJR Text',
+    font-family: 'Montserrat',
         sans-serif;
     font-weight: 100;
     margin: 2vh 0 3vh;
@@ -70,7 +69,7 @@
     display: inline-block;
     text-align: center;
     height: 6vh;
-    font-family: 'Forma DJR Text',
+    font-family: 'Montserrat',
         sans-serif;
     font-size: 1em;
     font-weight: 200;

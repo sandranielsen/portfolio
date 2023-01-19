@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Forma DJR Text", sans-serif;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 /* Mobile */
@@ -21,14 +21,51 @@ body {
 
 .banner {
     display: flex;
-    justify-content: center;
-
-}
-
-.mobile_img {
+    flex-direction: row;
     width: 100%;
     height: 100vh;
-    object-fit: cover;
+}
+
+.banner_text {
+    width: 40%;
+    padding: 0 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.banner_headline {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+.banner_description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner_button {
+    border: 2px solid black;
+    padding: 1vh 3vw;
+    display: inline-block;
+    text-align: center;
+    height: 6vh;
+    font-weight: 200;
+    background-color: transparent;
+}
+
+.banner_img {
+    width: 60%;
+    background-image: url("../media/header.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .main_container {
@@ -49,6 +86,9 @@ body {
 .portfolio_container {
     padding: 5vh 5vw 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .page_headline {
@@ -94,6 +134,7 @@ body {
 .some_wrapper {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     width: 50%;
     margin: 4vh 4vw 0;
 }
@@ -194,7 +235,8 @@ body {
     }
 
     .page_headline {
-        font-size: 6.25vw;
+        font-size: 3rem;
+        font-weight: 800;
     }
 
     .overlay {
@@ -237,18 +279,20 @@ body {
     .about_container {
         padding: 16vh 5vw;
         width: 100%;
+        display: flex;
+        flex-direction: row;
     }
 
     .about_article {
         display: flex;
-        margin: 3vh 0 0;
+        flex-direction: column;
+        margin: 3vh 0 0 4vw;
     }
 
     .about_img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        margin: 0 0 0 2vw;
     }
 
     .about_text {
@@ -265,7 +309,6 @@ body {
         width: 80%;
         margin: 4vh 2vw auto;
         bottom: 0;
-        position: absolute;
     }
 
     .some_icon {
@@ -298,6 +341,15 @@ body {
         font-size: 1.4vw;
     }
 
+    .banner_button {
+        padding: 2vh 1vw;
+        width: 14vw;
+        height: 9vh;
+        margin: 8vh 0 0;
+        cursor: pointer;
+        font-size: 1.4vw;
+    }
+
     .contact_info {
         font-size: 1.4vw;
     }
@@ -307,6 +359,13 @@ body {
     }
 
     .contact_button:hover {
+        color: white;
+        background: black;
+        border: 2px solid black;
+        transition: 0.5s;
+    }
+
+    .banner_button:hover {
         color: white;
         background: black;
         border: 2px solid black;

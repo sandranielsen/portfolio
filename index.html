@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multimedia Design Portfolio | MagoMedia</title>
-    <link rel="icon" type="image/png" href="media/logo-small.png">
-    <!--work in process-->
+    <title>Sandra Mago Portfolio | Web Developer & Multimedia Designer </title>
+    <link rel="icon" type="image/png" href="">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/home.css">
 </head>
@@ -14,13 +13,13 @@
 <body>
     <!-- Navigation -->
     <header class="navigation_container" id="nav">
-        <a href="#"><img src="media/logo.png" alt="logo" class="logo"></a>
+        <a href="#" class="logo">Sandra Mago</a>
         <nav class="navigation">
             <button class="menu" id="menu"><img src="media/menu.png" alt="menu" class="menu_img"></button>
             <ul class="nav-ul" id="nav-ul">
-                <li><a href="#portfolio" class="nav_link">PORTFOLIO</a></li>
-                <li><a href="#about" class="nav_link">ABOUT</a></li>
-                <li><a href="#contact" class="nav_link">CONTACT</a></li>
+                <li><a href="#portfolio" class="nav_link">Portfolio</a></li>
+                <li><a href="#about" class="nav_link">About</a></li>
+                <li><a href="#contact" class="nav_link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -29,16 +28,21 @@
         <!-- Banner section -->
         <section="main_container">
             <div class="banner">
-                <img src="media/header-desktop.jpg" alt="me" class="header_img">
+            <div class="banner_text">
+                <h4 class="section_subtitle">Frontend. Design. Branding.</h4>
+                <h3 class="banner_headline">Sandra Mago</h3>
+                <h5 class="banner_description">Aarhus-based web developer. Passionate about designing and coding user-friendly and consistent web applications. </h5>
+                <button onclick="window.location.href='media/CV.pdf'" class="banner_button">My CV</button>
             </div>
-            <div class="mobile_menu">
-                <img src="media/header-altmobile.jpg" alt="me" class="mobile_img">
+            <div class="banner_img">
+            </div>
+            </div>
                 </section>
 
                 <!-- Portfolio section -->
                 <section class="portfolio_container" id="portfolio">
                     <div class="text_underline">
-                        <h1 class="page_headline">PORTFOLIO</h1>
+                        <h3 class="page_headline">Portfolio</h3>
                     </div>
                     <div class="portfolio_content">
                         <div class="content">
@@ -70,12 +74,15 @@
 
                 <!-- About section -->
                 <section class="about_container" id="about">
-                    <div class="text_underline">
-                        <h1 class="page_headline">ABOUT</h1>
+                    <div>
+                        <img src="media/about.jpeg" alt="me" class="about_img">
                     </div>
-                    <section class="about_article">
+                    <div class="about_article">
+                    <div class="text_underline">
+                        <h3 class="page_headline">About</h3>
+                    </div>
                         <div class="text">
-                            <p class="about_text">My name is Sandra Mago and I am a multimedia design student based in
+                            <p class="about_text">My name is Sandra Mago and I'm a 24 year old web developer based in
                                 Aarhus. I am a half danish and half filipino (hence the unique last name) aspiring
                                 front-end developer and visual designer.<br><br> I have always been told that I have a
                                 keen
@@ -83,9 +90,9 @@
                                 for
                                 aesthetics and good design. Also, I have been interested in technology and the internet
                                 from
-                                an early age. So therefore, it made sense to me to study multimedia design and it was
+                                an early age. So therefore, it made sense to me to study first multimedia design and then web development and it was
                                 also
-                                through this program that I discovered my passion for programming. <br><br>I am
+                                through these programs that I discovered my passion for programming. <br><br>I am
                                 generally a
                                 very
                                 creative individual and my hobbies include
@@ -101,22 +108,20 @@
                             </div>
                             </div>
                         </div>
-                        <div>
-                            <img src="media/about.jpg" alt="me" class="about_img">
                         </div>
-                    </section>
+
                 </section>
 
                 <!-- Contact section-->
                 <section class="contact_container" id="contact">
-                    <h1 class="page_headline">LET'S TALK</h1>
+                    <h3 class="page_headline">Let's talk!</h3>
                     <p class="contact_text">Send me an email or give me a call!</p><br>
                     <p class="contact_info">Email: <a class="contact_link"
                             href="mailto: sandramarienielsen@gmail.com">sandramarienielsen@gmail.com</a></p>
                     <p class="contact_info">Phone: <a class="contact_link" href=" tel:+45 22 94 77 00">+45 22 94 77
                             00</a>
                     </p>
-                    <button onclick="window.location.href='(add cv)'" class="contact_button">DOWNLOAD CV</button>
+                    <button onclick="window.location.href='media/CV.pdf'" class="contact_button">DOWNLOAD CV</button>
                 </section>
     </main>
     <script src="js/main.js"></script>
