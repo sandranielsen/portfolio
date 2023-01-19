@@ -144,8 +144,9 @@ nav li {
         display: flex;
         position: absolute;
         font-family: 'Soulcraft', Arial, Helvetica, sans-serif;
-        background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%)
+        background: linear-gradient(to bottom, transparent 50%, #5DC6E0 50%);
     }
+
 
 .navigation {
     float: right;
