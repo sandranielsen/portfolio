@@ -13,6 +13,14 @@
     width: 100%;
 }
 
+#kunste {
+    background-color: #fbfbfb;
+}
+
+#enghaven {
+    background-color: #F0F0F0;
+}
+
 .page_headline {
     margin: 2vh 0;
     display: inline-block;
@@ -86,6 +94,14 @@
 @media only screen and (min-width: 768px) {
 
     .banner_img {
+        width: 85%;
+        height: 100vh;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner_img_alt {
         width: 100%;
         height: 100vh;
         object-fit: cover;
